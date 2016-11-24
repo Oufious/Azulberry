@@ -74,5 +74,4 @@ jmp .halt
 kernel_name					db 'KERNEL  SYS'	; The full FAT12 name of the kernel
 times 510-($-$$)			db 0x00				; Fill rest with 0x00
 bios_signature				dw 0xAA55			; BIOS signature
-Contact GitHub API Training Shop Blog About
-© 2016 GitHub, Inc. Terms Privacy Security Status Help
+
